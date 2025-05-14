@@ -1,4 +1,4 @@
-﻿class Program
+class Program
 {
     static int rights = 0;
 
@@ -26,14 +26,8 @@
     {
         Console.Write("1. Sual\n2 + 2 = ? necedir: ");
         int cavab1 = Convert.ToInt32(Console.ReadLine());
-        if (cavab1 == 4)
-        {
-            Rights();
-        }
-        else
-        {
-            Wrong();
-        }
+        if (cavab1 == 4) Rights();
+        else Wrong();
 
         SystemWait();
         Console.Clear();
@@ -44,14 +38,8 @@
         Console.WriteLine("3. Venera");
         Console.WriteLine("4. Merkuri");
         int cavab2 = Convert.ToInt32(Console.ReadLine());
-        if (cavab2 == 4)
-        {
-            Rights();
-        }
-        else
-        {
-            Wrong();
-        }
+        if (cavab2 == 4) Rights();
+        else Wrong();
 
         SystemWait();
         Console.Clear();
@@ -62,14 +50,8 @@
         Console.WriteLine("3. Zebra");
         Console.WriteLine("4. Panda");
         int cavab3 = Convert.ToInt32(Console.ReadLine());
-        if (cavab3 == 1)
-        {
-            Rights();
-        }
-        else
-        {
-            Wrong();
-        }
+        if (cavab3 == 1) Rights();
+        else Wrong();
 
         SystemWait();
         Console.Clear();
@@ -80,14 +62,8 @@
         Console.WriteLine("3. Oksigen");
         Console.WriteLine("4. Azot (Nitrogen)");
         int cavab4 = Convert.ToInt32(Console.ReadLine());
-        if (cavab4 == 3)
-        {
-            Rights();
-        }
-        else
-        {
-            Wrong();
-        }
+        if (cavab4 == 3) Rights();
+        else Wrong();
 
         SystemWait();
         Console.Clear();
@@ -98,14 +74,8 @@
         Console.WriteLine("3. Turkiye");
         Console.WriteLine("4. Rusiya");
         int cavab5 = Convert.ToInt32(Console.ReadLine());
-        if (cavab5 == 1)
-        {
-            Rights();
-        }
-        else
-        {
-            Wrong();
-        }
+        if (cavab5 == 1) Rights(); 
+        else Wrong();
 
         SystemWait();
         Console.Clear();
